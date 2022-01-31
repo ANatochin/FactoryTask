@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/app",
+  "type": "project",
+  "description": "home task for autoload",
+  "license": "proprietary",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Creators\\" : "Creators",
+      "Interfaces\\": "Interfaces",
+      "WorkClasses\\": "WorkClasses"
+    }
+  },
+  "require": {
+  }
+}
